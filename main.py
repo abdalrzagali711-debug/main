@@ -20,7 +20,7 @@ def keep_alive():
 
 # --- إعدادات البوت ---
 # استبدل TOKEN بـ التوكن الخاص بك من BotFather
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+TOKEN = "8529228658:AAG9PQs13d_awMgUplnFVesR5WG70Ion5UY"
 bot = telebot.TeleBot(TOKEN)
 
 # --- قاعدة بيانات تجريبية (يمكنك توسيعها) ---
@@ -111,4 +111,5 @@ def back(message):
 if __name__ == "__main__":
     keep_alive() # تشغيل سيرفر الويب في الخلفية
     print("BotTech is starting...")
+
     bot.infinity_polling()
